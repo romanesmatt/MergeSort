@@ -4,11 +4,12 @@ This is the first project for NWEN 303 (Concurrent Programming) at Victoria Univ
 the project was to gain an understanding of parallel programming with the use of Futures, CompletableFutures and the
 ForkJoin framework.
 
-* <a href="sequential-algorithm">Sequential Algorithm</a>
-* <a href="merge-sort-with-future">Merge Sort with Future</a>
-* <a href="merge-sort-with-completablefuture">Merge Sort with CompletableFuture</a>
-* <a href="merge-sort-with-the-fork-join-framework">Merge Sort with the ForkJoin framework</a>
-* <a href="testing-the-algorithms">Testing the Algorithms</a>
+* [Implementations](#implementations)
+* [Sequential Algorithm](#sequential-algorithm)
+* [Merge Sort with Future](#merge-sort-with-future)
+* [Merge Sort with CompletableFuture](#merge-sort-with-completablefuture)
+* [Merge Sort with the ForkJoin Framework](#merge-sort-with-the-forkjoin-framework)
+* [Testing the Algorithms](#testing-the-algorithms)
 
 ## Implementations
 
