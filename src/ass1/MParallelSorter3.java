@@ -11,10 +11,10 @@ import java.util.concurrent.RecursiveTask;
  * naturally recursive tasks is convenient for the merge-sort algorithm as it is
  * generally implemented using a recursive algorithm. We also maintain control over the detail of how operations
  * are executed while having some structure.
- *
+ * <p>
  * Each recursive task goes into the pool, and then a pool of threads executes tasks. The advantage is that threads
  * are executing tasks most of the time as opposed to being used just for waiting.
- *
+ * <p>
  * From using ForkJoin I've learned that each RecursiveTask doesn't actually use an entire thread when executing, something
  * that I didn't observe in the other implementations of the merge sort algorithm in this assignment.
  *

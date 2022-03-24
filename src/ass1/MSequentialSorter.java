@@ -8,13 +8,13 @@ import java.util.List;
  * The benefit of using the sequential algorithm is that we don't have to use parallelism and threads, therefore
  * allowing for a smaller implementation (i.e smaller codebase than with parallelism and threads). We also avoid the issues
  * that are often observed when using parallelism and threads i.e performance issues if implemented incorrectly.
- *
+ * <p>
  * Using threads can be a costly operation, and there are many issues that can arise when we need to communicate between
  * processes. As this is the case, the sequential algorithm is actually faster when dealing with cases that have
  * a small number of elements. Thus when the number of elements in a case is below a certain threshold
  * (i.e 20 for this assignment) we might as well delegate to a sequential algorithm as there is little
  * benefit to use a parallel algorithm in these cases.
- *
+ * <p>
  * From implementing a sequential merge-sort algorithm  I've learnt that a sequential algorithm is
  * actually faster when dealing with cases with a smaller number of elements.
  *

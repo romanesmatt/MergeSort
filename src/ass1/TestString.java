@@ -8,7 +8,7 @@ public class TestString {
 
     public static final String[][] dataset = {
 //            Formula 1 teams in order of Constructors' Championship standings after the 2022 Bahrain Grand Prix
-            {"ferrari", "mercedes", "haas", "alfaromeo", "alpine", "alphatauri", "astonmartin", "williams", "mclaren" /* Spain but the s is silent */, "redbull"},
+            {"ferrari", "mercedes", "haas", "alfaromeo", "alpine", "alphatauri", "astonmartin", "williams", "mclaren", "redbull"},
             {"ferrari", "mercedes", "haas", "alfaromeo", "alpine", "alphatauri", "astonmartin", "williams", "mclaren", "redbull"},
             {"ferrari", "mercedes", "haas", "alfaromeo", "alpine", "alphatauri", "astonmartin", "williams", "mclaren", "redbull"},
             {},

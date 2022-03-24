@@ -5,7 +5,7 @@ import java.util.Arrays;
 import org.junit.jupiter.api.Test;
 
 /**
- * Thanks to the following sources for helping me in this part of the assignment:
+ * Thanks to the following sources for helping me understand the code in this class:
  * https://stackoverflow.com/questions/15126887/warm-up-the-code-before-start-measuring-the-performance
  * https://stackoverflow.com/questions/504103/how-do-i-write-a-correct-micro-benchmark-in-java
  */
@@ -52,7 +52,7 @@ public class TestPerformance {
             }
 //            NOTE: During testing, I reduced the number of warm ups to 20000 and runs to 20 to
 //            to shorten the tests' execution time.
-        }, 200, 20);//realistically 20.000 to make the JIT do his job..
+        }, 20000, 200);//realistically 20.000 to make the JIT do his job..
         System.out.println(name + " sort takes " + time / 1000d + " seconds");
     }
 

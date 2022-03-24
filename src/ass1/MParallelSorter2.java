@@ -17,7 +17,7 @@ import java.util.concurrent.ForkJoinPool;
  * like I did when using Futures in MParallelSorter1. One thing I found particularly interesting is that with
  * workStealingPool(), the Futures I used in MParallelSorter1 were on average quicker than the CompletableFutures
  * used here despite using the ForkJoinPool.commonPool() method (which in itself use the work-stealing algorithm).
- *
+ * <p>
  * What I learned from using CompletableFutures is that while it is more convenient to use these as opposed to a Future,
  * in certain circumstances a Future may still outperform a CompletableFuture
  * (especially when the Future is using workStealingPool()).
